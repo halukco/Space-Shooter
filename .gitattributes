@@ -1,2 +1,15 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# C# dosyalarını ana dil olarak algıla
+*.cs linguist-detectable=true
+*.cs linguist-language=C#
+
+# Unity ve Visual Studio ayar dosyalarını istatistikten çıkar
+*.sln linguist-generated=true
+*.csproj linguist-generated=true
+*.unityproj linguist-generated=true
+*.config linguist-generated=true
+*.xml linguist-generated=true
+*.asset linguist-generated=true
+*.meta linguist-generated=true
+*.mat linguist-generated=true
+*.unity linguist-generated=true
+*.prefab linguist-generated=true
